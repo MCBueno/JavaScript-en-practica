@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Matias Bueno">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo FrontEnd.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Suma y resta</title>
+</head>
+<body>
+    <section class="section3">
+        <h1 class="section3--text">Calculadora</h1>
+        <div class="section3__container">
+            <h2>
+                Resultado: <span id="resultado"></span>
+            </h2>
+            <div>
+                <div>
+                    <div class="section3__container--text">
+                        <label for="">Valor 1</label>
+                        <input id="valor1" type="text">
+                    </div>
+                    <div class="section3__container--text">
+                        <label for="">Valor 2</label>
+                        <input id="valor2" type="text">
+                    </div>
+                    <div style="display: flex">
+                        <button class="style--button" id="btn-sumar" onclick="sumar()" type="button">
+                            Sumar
+                        </button>
+                        <button class="style--button" id="btn-restar" onclick="restar()" type="button">
+                            Restar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Matias Bueno">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo FrontEnd.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <section class="section1">
+        <div class="section1__container">
+            <h1 class="section1--text">
+                Escríbenos !!!
+            </h1>
+            <div class="resultado">
+            </div>
+            <form id="formulario">
+                <div>
+                    <div class="section1__container--nombre">
+                        <label class="section1__container--text">
+                            Nombre completo
+                        </label>
+                        <input id="nombre" type="text">
+                        <p class="errorNombre"></p>
+                    </div>
+                    <div class="section1__container--asunto">
+                        <label class="section1__container--text">
+                            Asunto
+                        </label>
+                        <input id="asunto" type="text">
+                        <p class="errorAsunto"></p>
+                    </div>
+                </div>
+                <div class="section1__container--mensaje">
+                    <label class="section1__container--text">
+                        Mensaje
+                    </label>
+                    <textarea id="mensaje"></textarea>
+                    <p class="errorMensaje"></p>
+                </div>
+                <div>
+                    <button class="style--button" id="botton" type="submit">
+                        Envíar mensaje
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

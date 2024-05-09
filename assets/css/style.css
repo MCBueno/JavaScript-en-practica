@@ -1,0 +1,207 @@
+body {
+    background-image: url(../img/papelviejo.jpg);
+}
+
+h1 {
+    font-family: "honk", sans-serif;
+}
+
+h2 {
+    font-family: "advent pro ital", sans-serif;
+}
+
+
+/*----------------- EJERCICIO 1 -----------------*/
+.section1--text {
+    font-size: 50px;
+}
+
+.section1__container {
+    width: 40%;
+    margin: 0 auto
+}
+
+.resultado {
+    color: green;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section1__container--nombre {
+    display: flex;
+    flex-direction: column;
+}
+
+.errorNombre {
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.section1__container--asunto {
+    display: flex;
+    flex-direction: column;
+}
+
+.errorAsunto {
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.section1__container--mensaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.errorMensaje {
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.section1__container--text {
+    font-size: 20px;
+    font-family: "advent pro ital", sans-serif;
+}
+/*----------------- EJERCICIO 2 -----------------*/
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2--text {
+    font-size: 50px;
+}
+
+/* BOTONES */
+#btn-1 {
+    background-color: #e53e3e;
+    width: 100px;
+    height: 100px;
+}
+
+#btn-2 {
+    background-color: #dd6b20;
+    width: 100px;
+    height: 100px;
+}
+
+#btn-3 {
+    background-color: #faf089;
+    width: 100px;
+    height: 100px;
+}
+
+#btn-4 {
+    background-color: #48bb78;
+    width: 100px;
+    height: 100px;
+}
+
+#btn-5 {
+    background-color: #81e6d9;
+    width: 100px;
+    height: 100px;
+}
+
+#btn-6 {
+    background-color: #d53f8c;
+    width: 100px;
+    height: 100px;
+}
+
+#btn-result {
+    width: 500px;
+    height: 600px
+}
+
+#caja {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%
+}
+
+.section2__container {
+    display: flex
+}
+
+.section2__container--btn {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*----------------- EJERCICIO 3 -----------------*/
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section3--text {
+    font-size: 50px;
+    text-align: center;
+}
+
+.section3__container {
+    margin: auto;    
+}
+
+.section3__container--text {
+    font-family: "reem kufi fun", sans-serif;
+}
+
+
+/*------------------- BOTONES -------------------*/
+
+
+.style--button {    
+    align-self: center;
+    background-image: url(../img/papel.jpg);
+    object-fit: cover;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "advent pro", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.style--button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.style--button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}

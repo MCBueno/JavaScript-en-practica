@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Matias Bueno">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo FrontEnd.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">    
+    <title>Paleta de Colores</title>
+</head>
+<body>
+    <section class="section2">
+        <div>
+            <h1 class="section2--text">
+                Paleta de colores
+            </h1>
+            <div class="section2__container">
+                <div class="section2__container--btn">
+                    <button id="btn-1" style="background-color: #e53e3e;" onclick="changeColor(this)" type="button"> <!--  ONCLICK PARA CAMBIAR EL COLOR E INDICAR QUE ES EL DE LA ACTUAL LINEA CON (THIS) POR ESO DEJE EL STYLE BACKGROUND EN EL HTML -->
+                    </button>
+                    <button id="btn-2" style="background-color: #dd6b20;" onclick="changeColor(this)" type="button">
+                    </button>
+                    <button id="btn-3" style="background-color: #faf089;" onclick="changeColor(this)" type="button">
+                    </button>
+                    <button id="btn-4" style="background-color: #48bb78;" onclick="changeColor(this)" type="button">
+                    </button>
+                    <button id="btn-5" style="background-color: #81e6d9;" onclick="changeColor(this)" type="button">
+                    </button>
+                    <button id="btn-6" style="background-color: #d53f8c;" onclick="changeColor(this)" type="button">
+                    </button>                   
+                </div>
+                <div id="btn-result">
+                    <div id="caja">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
